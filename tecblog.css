@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', serif;
+    background-color: #ccc;
+}
+
+/* |||||||||||| Formatação Cabeçalho ||||||||||| */
+
+#container-topo{
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+#topo{
+    background-color: #f2b00f;
+    padding: 10px;
+    border-bottom: 10px solid #4e4e4e;
+}
+
+#logo a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 0.1em;
+}
+
+#logo a:visited, #topo a:link{
+    color: #ffff;
+}
+
+#logo a:hover{
+    color: #4e4e4e;
+    border-bottom: 1px solid #4e4e4e;   
+}
+
+/* |||||||||||| Formatação barra de pesquisa ||||||||||| */
+
+input{
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    width: 44%;
+    position: relative;
+    left: 16px;
+    background: transparent;
+    outline: none;
+    padding-left: 20px;
+}
+
+.btn{
+    background-color: #fff;
+    border-radius: 11px;
+    border: none;
+    padding: 6px;
+    position: relative;
+    right: 21px;
+}
+
+button{
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+
+.btn:hover{
+    border: 3px solid #fff;
+    cursor: pointer;
+  
+}
+
+
+/* |||||||||||| Formatação da página ||||||||||| */
+
+#container-postagens{
+    width: 650px;
+    float: left;
+}
+
+.postagens{
+    background: #f2f2f2;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 5px #4e4e4e;
+}
+
+.postagens p{
+    padding: 10px;
+}
+.postagens img{
+    padding-left: 3%;
+    width: 620px;   
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+    box-shadow: 2px 4px 4px #4e4e4e;
+    padding: 10px;
+    background: #fff;
+}
+
+
+#container-corpo{
+    width: 920px;
+    margin: 10px auto;
+}
+
+
+/* |||||||||||| Formatação geral ||||||||||| */
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+    padding-bottom: 20px;
+}
+
+.branco{
+    color: #f2f2f2;
+}
+
+.titulo{
+    display: block;
+    padding: 10px;
+}
+
+.titulo h2{
+    color: #f2b00f;
+}
+
+.titulo p{
+    font-size: 0.9em;
+    border-bottom: 1px solid #ccc;
+}
