@@ -42,7 +42,7 @@ body{
 
 /* |||||||||||| Formatação barra de pesquisa ||||||||||| */
 
-input{
+#topo input{
     margin-top: 18px;
     padding: 12px;
     border: 1px solid #fff;
@@ -73,7 +73,6 @@ button{
 .btn:hover{
     border: 3px solid #fff;
     cursor: pointer;
-  
 }
 
 
@@ -98,22 +97,77 @@ button{
     width: 620px;   
 }
 
-#lateral{
-    width: 240px;
-    float: right;
-    box-shadow: 2px 4px 4px #4e4e4e;
-    padding: 10px;
-    background: #fff;
-}
-
-
 #container-corpo{
     width: 920px;
     margin: 10px auto;
 }
+/* |||||||||||| Formatação Lateral ||||||||||| */
+
+#container-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagens-lateral{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 2px 4px 4px #4e4e4e;
+}
+
+.postagens-lateral input#email  {
+    padding: 4px;
+    outline: none;
+    border: 1px solid #4e4e4e;
+    width: 70%;
+}
+
+.postagens-lateral button{
+    position: relative;
+    left: 5px;
+    top: 4px;
+    padding: 0 9px;
+    cursor: pointer;
+    border: 1px solid #4e4e4e;
+}
+
+#news-btn img{
+    width: 20px;
+}
+
+.postagens-lateral button:hover{
+    padding: 0 10px;
+    border: 1px solid  darkorange;
+}
+
+
+.postagens-lateral h3 {
+        padding: 5px;
+        margin-bottom: 5px;
+        color: #f2b00f;
+        border-bottom: 1px solid #ccc;  
+}
+
+/* |||||||||||| Formatação rodapé ||||||||||| */
+
+#container-rodape{
+    padding: 5px;
+    margin: auto;
+    clear: both;
+    border-top: 5px solid #4e4e4e;
+    background-color: #4e4e4e;
+}
+
+#rodape{
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
 
 
 /* |||||||||||| Formatação geral ||||||||||| */
+
+
 
 h1{
     color: #4e4e4e;
