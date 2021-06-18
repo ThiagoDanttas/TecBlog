@@ -52,7 +52,6 @@ body{
     left: 16px;
     background: transparent;
     outline: none;
-    padding-left: 20px;
 }
 
 .btn{
@@ -75,8 +74,8 @@ button{
     cursor: pointer;
 }
 
-
 /* |||||||||||| Formatação da página ||||||||||| */
+
 
 #container-postagens{
     width: 650px;
@@ -113,41 +112,71 @@ button{
     padding: 10px;
     background: #fff;
     box-shadow: 2px 4px 4px #4e4e4e;
+    float: left;
+    width: 240px;
 }
 
 .postagens-lateral input#email  {
     padding: 4px;
     outline: none;
     border: 1px solid #4e4e4e;
-    width: 70%;
+    width: 80%;
 }
 
 .postagens-lateral button{
     position: relative;
     left: 5px;
-    top: 4px;
-    padding: 0 9px;
+    top: 6px;
+    padding-left: 3px;
     cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #4e4e4e;
+    border: none;
 }
 
-#news-btn img{
-    width: 20px;
+button.news-btn i{
+    font-size: 29px;
 }
 
-.postagens-lateral button:hover{
-    border: 1px solid  #f2b00f;
-    border-radius: 1px;
-    background-color: #f5f5f5;
+button.news-btn i:hover{
+    color: #f2b00f;
 }
 
+.postagens-lateral h3{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #f2b00f;
+    border-bottom: 1px solid #ccc;  
+}
 
-.postagens-lateral h3 {
-        padding: 5px;
-        margin-bottom: 5px;
-        color: #f2b00f;
-        border-bottom: 1px solid #ccc;  
+/* |||||||||||| Formatação Lateral (Redes Sociais) ||||||||||| */
+
+.postagens-lateral ul{
+    list-style-type: none;
+}
+
+.postagens-lateral ul li{
+    float: left;
+}
+
+.postagens-lateral ul li a{
+    padding: 12px;
+}
+
+ul#redes-sociais{
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+.postagens-lateral ul#redes-sociais a{
+    color: #4e4e4e;
+}
+
+.postagens-lateral ul#redes-sociais a:hover{
+    color: #f2b00f;
+}
+
+.face, .insta, .twitter, .linkedin{
+    font-size: 25px;
 }
 
 /* |||||||||||| Formatação rodapé ||||||||||| */
@@ -169,12 +198,16 @@ button{
 
 /* |||||||||||| Formatação geral ||||||||||| */
 
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 
 h1{
     color: #4e4e4e;
     font-size: 2.5em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     padding-bottom: 20px;
 }
 
